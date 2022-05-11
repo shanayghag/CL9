@@ -1,0 +1,6 @@
+module AdditionApp {
+	interface Addition {
+		long addition(in long a, in long b);
+		oneway void shutdown();
+	};	
+};
